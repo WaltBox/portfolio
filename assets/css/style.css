@@ -156,13 +156,18 @@ body {
 }
 .section-title {
     text-align: left;
-}
-.section-title  {
-    text-align: right;
+    float: left;
 }
 .content ul li a img{
    max-width: 30%;
    max-height: 15%;
+}
+.work {
+    display: flex;
+}
+.content {
+    align-items: column;
+    display: flex;
 }
 /* Media Screen for Smaller Desktop screen */
 @media screen and (max-width:980px) {
